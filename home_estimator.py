@@ -4,7 +4,7 @@ def estimate_home_value(size_in_sqft, number_of_bedrooms):
     value = 50000
 
     # Adjust the value estimate based on the size of the house
-    # Número de sqft por el valor de cada sqft + el value (Vamos a suponer que cada sqtf vale 92 dolares)
+    # Number of sqft por el valor de cada sqft + el value (lets suppouse that each sqtf cost 92 dollars)
     value = value + (size_in_sqft*  92)
 
     # Adjust the value estimate based on the number of bedrooms
